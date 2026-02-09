@@ -1,0 +1,93 @@
+body
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.card
+{
+ 
+    position: relative;
+    text-align: center;  
+    padding: 50px;
+    width: fit-content;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+  
+    
+}
+h3
+{
+    text-align: center;
+    font-size: 40px;
+}
+.imageContainer
+{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    gap: 20px;
+}
+img
+{
+   
+    transition: outline 0.3s ease,transform 0.3s ease;
+    height: 184px;
+    width: 200px;
+
+    
+}
+img:hover
+{
+    outline: 3px solid black;
+    transform: scale(1.02);
+    
+}
+#winDispaly
+{
+
+    text-align: center;
+    margin-left: 25%;
+    width:50%
+ 
+}
+
+button
+{
+    border-radius: 10%;
+    background-color:burlywood;
+    padding: 10px;
+    margin-left: 5px;
+    
+    
+}
+button:focus {
+  outline: none;        /* remove default focus ring */
+  transform: scale(1.2);
+}
+
+/* .scoreSts
+{
+
+    padding: 50px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+
+}
+.score
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     */
+/* } */
+
