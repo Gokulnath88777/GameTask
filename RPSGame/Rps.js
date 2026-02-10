@@ -117,6 +117,6 @@ resetbtn.addEventListener("click",()=>
     if(result)
     {
         location.reload()
-    }
+    } 
 })
 
