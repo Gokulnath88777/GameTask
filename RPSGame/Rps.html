@@ -8,19 +8,24 @@
     <script src="Rps.js" defer></script>
 </head>
 <body>
-    <div class="card">
+    <div class="card game-card">
     <h3>Rock Paper Scissors</h3>
     <div class="imageContainer">
-        <img src="rockgame.png" alt="" name="rock" id="rock">
-        <img src="papergame.png" alt="" name="paper" id="paper">
-        <img src="scissorgame.png" alt="" name="scissor" id="scissor">
+        <img   src="rockgame.png"  alt="" name="rock" class="rock ">
+        <img src="papergame.png" alt="" name="paper" class="paper">
+        <img src="scissorgame.png" alt="" name="scissor" class="scissor">
     </div>
      <p id="winDispaly"></p>
      <p id="score"></p>
     <button>Exit Game</button>
     <button id="resetbtn">Reset Game</button>
     </div>
-   <!-- <div class="scoreSts">
+    <div class="card1" id="clashAnimate">
+        <img   src="rockgame.png"  alt="" name="rock" class="rock">
+        <img src="papergame.png" alt="" name="paper" class="paper ">
+        <img src="scissorgame.png" alt="" name="scissor" class="scissor ">
+    </div> 
+    <!-- <div class="scoreSts">
         <p>Game Status</p>
     
         <div class="score">
@@ -29,6 +34,7 @@
             <p id="loses">0</p>
             <p id="tie">0</p>
         </div>
-    </div> -->
+    </div> 
+     -->
 </body>
 </html>
