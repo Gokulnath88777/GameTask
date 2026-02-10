@@ -9,12 +9,12 @@ console.log(rockimg)
 let playScore=0
 let computScore=0
 
-let items=["rock","paper","scissor"]
-let guess=items[Math.floor(Math.random()*items.length)]
+
 
 function computer(event)
 {
-    
+    let items=["rock","paper","scissor"]
+    let guess=items[Math.floor(Math.random()*items.length)]
     if((guess=="rock" && event.className=="paper") || (guess=="paper" && event.className=="scissor") || (guess=="scissor" && event.className=="rock"))
     {
         playScore++
