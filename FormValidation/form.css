@@ -1,0 +1,65 @@
+body
+{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.errorMsg
+{
+    visibility: hidden;
+    color: red;
+}
+.PasserrorMsg
+{
+    visibility: hidden;
+    color: red;
+}
+.card
+{  
+    width: 400px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+    background-color: rgba(247, 243, 243, 0.988);
+    
+}
+label
+{
+ display: block;  
+ margin-top: 4px;
+
+
+}
+input
+{
+width: 90%;
+padding: 8px;
+border: none;
+border-bottom: 2px black solid;
+background-color:rgba(247, 243, 243, 0.988);
+outline: none;
+}
+.outerContainer
+{
+    display: grid;
+}
+button
+{
+    background-color: white;
+    border-radius: 5px;
+    padding: 4px;
+    width: fit-content;
+    justify-self: center;
+    
+}
+sup
+{
+    color: red;
+}

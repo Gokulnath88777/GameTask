@@ -1,0 +1,102 @@
+
+body
+{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+   
+}
+.nav a:hover
+{
+    color: aliceblue;
+    transform: scale(1.2);
+}
+.icon
+{
+
+    position: absolute;
+    z-index: 1;
+    width: 10px;
+    right:15px;
+    cursor: pointer;
+
+}
+.icon span
+{
+    display: block;
+    width: 20px;
+    padding: 2px;
+    border-radius: 5px;
+    background: black;
+    margin:5px 0;
+
+}
+
+
+.iconPosition{
+
+    z-index: 3;
+}
+
+
+@media screen and (min-width:700px) {
+    .nav
+    {
+        display: flex;
+        justify-content: flex-end;
+        background-color: rgb(6, 0, 0);
+        padding: 30px;
+        gap: 20px;
+    }
+    .icon 
+    {
+        display: none;
+    }   
+}
+
+@media screen and (max-width:700px) {
+
+    .icon
+    {
+        display:block;
+        top:2px;
+    
+    }
+    .nav
+    {
+        position:fixed;
+        z-index:2;
+        right: 0px;
+        height: 100vh;
+        background-color: black;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        transform: translateX(100%);
+        transition: 0.4s ease-in-out;
+    }
+    .navSidebarToggle
+    {
+        transform: translateX(0);
+    }
+    .icon span.navSpanToggle
+    {
+        background: white;
+    }
+    }
+    
+
+   
+
+    
